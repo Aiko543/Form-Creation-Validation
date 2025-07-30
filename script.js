@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             feedbackDiv.textContent = "Registration successful!";
             feedbackDiv.style.color = "#28a745"; // Green color for success
         } else {
-            feedbackDiv.textContent = messages.join('<br>');
+            feedbackDiv.textContent = messages.join("<br>");
             feedbackDiv.style.color = "#dc3545"; // Red color for error
         }
     });
